@@ -1,14 +1,7 @@
-Django==4.0.4
-django-heroku
-gunicorn
-asgiref
-pytz
-sqlparse
 asgiref==3.2.7
-Django==3.0.5
+Django==3.0.7
 pytz==2019.3
 sqlparse==0.3.1
-gunicorn # NEW
-django-heroku # NEW
-release: python manage.py migrate
-web: gunicorn goodmovies.wsgi
+gunicorn
+django-heroku
+Pillow
